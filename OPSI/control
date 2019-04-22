@@ -1,0 +1,31 @@
+[Package]
+version: 1
+depends: 
+incremental: False
+
+[Product]
+type: localboot
+id: java-se-development-kit-8-update-191
+name: Java SE Development Kit 8 Update 191
+description: Java SE Development Kit 8 Update 191
+
+advice: 
+version: 8.0.1910.12
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.opsiscript
+uninstallScript: uninstall.opsiscript
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript:
+
+[Changelog]
+java-se-development-kit-8-update-191 (8.0.1910.12-1) stable; urgency=low
+
+	* initial: created by opsi-setup-detector
+
+ -- opsisetupdetector.exe <info@uib.de>  12/12/2018 14:43:46
+
